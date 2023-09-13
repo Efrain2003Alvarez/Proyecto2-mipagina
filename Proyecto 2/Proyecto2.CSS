@@ -1,0 +1,58 @@
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Color de fondo de la barra de navegación */
+    overflow: hidden;
+}
+
+ul.navbar li {
+    float: left;
+}
+
+ul.navbar li a {
+    display: block;
+    color: white; /* Color del texto */
+    text-align: center;
+    padding: 14px 16px; /* Espaciado dentro de los elementos de la barra */
+    text-decoration: none;
+}
+
+ul.navbar li a:hover {
+    background-color: #555; /* Color de fondo cuando se pasa el mouse sobre los elementos */
+}
+
+body {
+    background-color: #2a2a2a;
+    color: white; /* Color del texto en contraste con el fondo negro */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 1px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+a {
+    color: white; /* Cambia el color de todos los enlaces a blanco */
+    text-decoration: none; /* Quita la subraya predeterminada en los enlaces */
+}
+
